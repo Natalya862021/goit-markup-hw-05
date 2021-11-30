@@ -253,6 +253,32 @@ fill: currentColor;
 .features-img:not(:last-child) {
     margin-right: 30px;
 }
+.work-title {
+    position: absolute;
+    width: 100%;
+    min-height: 70px;
+    bottom: 0;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+.features-img {
+    position: relative;
+}
+.title-text {
+    font-weight: bold;
+    line-height: 1.14;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin: auto;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-title-color);
+} 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 /*------------Team---------*/
 .team-main {
     background-color: #f5f4fa;
