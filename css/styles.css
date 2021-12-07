@@ -630,7 +630,7 @@ margin-right: 0;
     top: 0;
     left: 0;
     background: rgba(33, 150, 243, 0.9);
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition: transform var(--transition-duration) var(--timing-function);
 }
 .portfolio-link:hover .portfolio-wrapper,
